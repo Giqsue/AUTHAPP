@@ -1,0 +1,47 @@
+/* Estilos para el componente DashboardComponent */
+
+.dashboard-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .dashboard-title {
+      font-size: 20px;
+    }
+  
+    .dashboard-subtitle {
+      font-size: 16px;
+    }
+  }
+  
